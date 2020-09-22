@@ -92,7 +92,7 @@ def load_data(filename):
                 row[15] = int(1)
             else:
                 row[15] = int(0)
-            if row[16]:
+            if row[16] == 'TRUE':
                 row[16] = int(1)
             else:
                 row[16] = int(0)
